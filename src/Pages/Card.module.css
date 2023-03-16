@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.box {
+  background-color: #21204c;
+  height: 33rem;
+  width: 45rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  position: relative;
+  top: 6rem;
+  left: 24rem;
+  z-index: -1;
+}
+
+.container {
+  height: 30rem;
+  width: 49rem;
+  background-color: #f2f2fb;
+  position: absolute;
+  /* top: 5.7rem; */
+  /* left: 19rem; */
+  border-radius: 2rem;
+  box-shadow: 0 4px 2rem #21204c;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.wrapper {
+  margin: 3rem 3rem;
+  padding: 10px;
+  /* background-color: aqua; */
+  height: 10rem;
+  width: 60%;
+  
+}
+
+.logo_wrapper {
+  display: flex;
+  justify-content: center;
+  /* background-color: #535360; */
+  font-family: Merriweather;
+}
+
+.logo {
+  margin: 0 18px;
+  color: #21204c;
+  font-weight: 600;
+  height: 30px;
+  width: 200px;
+  background-color: #ebebf7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  font-family: Poppins;
+}
+.sub_tag {
+  font-family: Merriweather;
+  font-size: x-large;
+  font-weight: 900;
+  color: #21204c;
+}
+
+.content {
+  margin: 25px;
+  /* background-color: #bab9d3; */
+}
+
+.content_text {
+  color: #21204c;
+  font-weight: 400;
+  /* font-family: Merriweather; */
+  font-family: Poppins;
+  margin: 5px;
+}
+.profile {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  gap: 90px;
+}
